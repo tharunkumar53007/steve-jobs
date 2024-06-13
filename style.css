@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+   padding: 2rem;
+   margin: 1rem 0px;
+   padding: 0px 2rem;
+    
+}
+
+header h1,header p{
+   color: white;
+   text-align: center;
+  margin-bottom: 1rem;
+
+}
+
+.tribute blockquote{
+    text-align: center;
+    font-size: 2rem
+}
+
+.tribute{
+    background-color: white;
+    color: black;
+    max-width: 100rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 3fr 1fr;
+    
+}
+
+.tribute img{
+   width: 100px;
+}
+
+.bio h2{
+    font-size: 2rem;
+    margin: 15px;
+    letter-spacing: 2px;
+}
+
+.bio p{
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.bio hr{
+    margin-top: 20px;
+}
+
+@media screen and (max-width:600px) {
+    header.tribute.bio{
+        width: auto;
+        height: auto;
+    }
+}
