@@ -55,7 +55,7 @@ header h1,header p{
 }
 
 .bio hr{
-    margin-top: 20px;
+    margin: 20px;
 }
 
 @media screen and (max-width:600px) {
